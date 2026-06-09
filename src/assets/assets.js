@@ -86,7 +86,7 @@ export const testimonialsData = [
     text: "The team beautifully blended traditional Newari architecture with modern living. The craftsmanship and attention to detail exceeded all my expectations."
   },
   {
-    name: "Sujata Maharjan",
+    name: "Sonika Kumari Buddhachari",
     title: "Architect",
     image: profile_img_2,
     alt: "Portrait of Sujata Maharjan",

@@ -98,7 +98,7 @@ export const testimonialsData = [
     title: "Architect",
     image: profile_img_3,
     alt: "Portrait of Prakash Tuladhar",
-    rating: 5,
+    rating: 4,
     text: "From planning to completion, the entire process was professional and transparent. The Newari-inspired design has become a source of pride for our family."
   }
 ];

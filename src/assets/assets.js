@@ -86,8 +86,8 @@ export const testimonialsData = [
     text: "The team beautifully blended traditional Newari architecture with modern living. The craftsmanship and attention to detail exceeded all my expectations."
   },
   {
-    name: "Sonika Kumari Buddhachari",
-    title: "Architect",
+    name: "Sonika Buddhachari",
+    title: "Entrepreneur",
     image: profile_img_2,
     alt: "Portrait of Sujata Maharjan",
     rating: 5,
@@ -95,7 +95,7 @@ export const testimonialsData = [
   },
   {
     name: "Prakash Tuladhar",
-    title: "Entrepreneur",
+    title: "Architect",
     image: profile_img_3,
     alt: "Portrait of Prakash Tuladhar",
     rating: 5,

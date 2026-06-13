@@ -1,6 +1,7 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { assets } from '../assets/assets'
 import { toast } from 'react-toastify';
+import {motion} from 'motion/react'
 
 const Contact = () => {
     const [result, setResult] = useState("");
@@ -30,9 +31,24 @@ const Contact = () => {
     return (
         <div id='Contact' className='w-full h-screen bg-cover bg-center' style={{ backgroundImage: `url(${assets.page_bg_img})` }}>
             <div className="h-full w-full bg-[#E4CFB4]/10 p-8 flex flex-col items-center gap-6 md:p-15">
-                <h1 className='text-4xl font-semibold mt-5 md:mt-0 md:text-5xl'>Contact <span className='font-light underline text-[#6F130F]'>With Us</span></h1>
-                <p className='text-center font-semibold text-[#6A594C] md:text-2xl'>Your Dream Home Awaits — Let's Make It a Reality</p>
-                <form className="flex flex-col items-center w-full px-5 gap-8 md:w-1/2 md:mt-5" onSubmit={onSubmit}>
+                <motion.h1 className='text-4xl font-semibold mt-5 md:mt-0 md:text-5xl'
+                    initial={{ opacity: 0, y: 80 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6 }}
+                    viewport={{ once: true }}
+                >Contact <span className='font-light underline text-[#6F130F]'>With Us</span></motion.h1>
+                <motion.p className='text-center font-semibold text-[#6A594C] md:text-2xl'
+                    initial={{ opacity: 0, y: 80 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6, delay: 0.1 }}
+                    viewport={{ once: true }}
+                >Your Dream Home Awaits — Let's Make It a Reality</motion.p>
+                <motion.form className="flex flex-col items-center w-full px-5 gap-8 md:w-1/2 md:mt-5" onSubmit={onSubmit}
+                    initial={{ opacity: 0, y: 80 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6, delay: 0.2 }}
+                    viewport={{ once: true }}
+                >
                     <div className="flex flex-col gap-3 w-full lg:flex-row md:gap-5">
                         <div className="flex flex-col gap-1 lg:w-1/2">
                             <h1 className='font-semibold text-[#6F130F] md:text-xl'>Your Name</h1>
@@ -48,7 +64,7 @@ const Contact = () => {
                         <textarea name="Messege" className="border p-2 rounded h-45 outline-none bg-[#F0E5D6] md:h-60" placeholder='Messege' required></textarea>
                     </div>
                     <button style={{ backgroundImage: `url(${assets.red_bg})` }} className='bg-cover bg-center text-[#F0E5D6] border py-3 px-8 rounded md:text-xl md:px-9 cursor-pointer active:scale-99'>{result ? result : 'Send Messege'}</button>
-                </form>
+                </motion.form>
             </div>
         </div>
     )

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { assets } from '../assets/assets.js'
+import { motion } from "motion/react"
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -12,8 +13,13 @@ const Navbar = () => {
         }
     }, [showMenu])
     return (
-        <div>
-            <nav className='flex justify-between items-center px-4 py-2 md:px-15 md:py-3'>
+        <div className='overflow-x-hidden overflow-y-hidden'>
+            <motion.nav className='flex justify-between items-center px-4 py-2 md:px-15 md:py-3 w-full'
+                initial={{ opacity: 0, y: '-100%' }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+                viewport={{ once: true }}
+                >
                 <img src={assets.logo_img} className="h-18 md:h-20 w-auto" />
                 <ul className='hidden md:flex gap-6 text-xl font-sm text-[#F8F4E9]'>
                     <a href="#Header" className=''>Home</a>
@@ -47,7 +53,7 @@ const Navbar = () => {
                     </ul>
                     <button className='bg-[#410D07] text-white px-5 py-2 border border-yellow-700 rounded font-small shadow-md cursor-pointer active:scale-99 fixed bottom-5 left-1/2 -translate-x-1/2 '>Sign Up</button>
                 </div>
-            </nav>
+            </motion.nav>
         </div>
     )
 }

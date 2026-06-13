@@ -1,10 +1,10 @@
 import React from 'react'
-import Header from './Components/Header'
-import About from './Components/About'
-import Project from './Components/Project'
-import Testimonials from './Components/Testimonials'
-import Contact from './Components/Contact'
-import Footer from './Components/Footer'
+import Header from './Sections/Header'
+import About from './Sections/About'
+import Project from './Sections/Project'
+import Testimonials from './Sections/Testimonials'
+import Contact from './Sections/Contact'
+import Footer from './Sections/Footer'
 import { ToastContainer } from 'react-toastify';
 
 const App = () => {

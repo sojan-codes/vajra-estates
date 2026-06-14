@@ -5,7 +5,7 @@ import { motion } from "motion/react"
 
 const Header = () => {
   return (
-    <div id='Home' className='h-screen w-full bg-cover bg-center' style={{ backgroundImage: `url("${assets.header_img}")` }}>
+    <div id='Home' className='h-screen w-full bg-cover bg-center overflow-hidden' style={{ backgroundImage: `url("${assets.header_img}")` }}>
       <div className="h-screen bg-black/50">
         <Navbar />
         <div className="flex flex-col p-7 h-1/2 gap-8 mt-15 justify-center items-center md:gap-10">
@@ -17,7 +17,7 @@ const Header = () => {
           >Where Heritage Finds a Home</motion.h1>
           <motion.div className="flex gap-5"
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+            whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.9 }}
             viewport={{ once: true }}
           >

@@ -24,9 +24,9 @@ const Navbar = () => {
                 >
                 <img src={assets.logo_img} className="h-18 md:h-20 w-auto" />
                 <ul className='hidden md:flex gap-6 text-xl font-sm text-[#F8F4E9]'>
-                    <a href="#Header" className=''>Home</a>
+                    <a href="#Home" className=''>Home</a>
                     <a href="#About" className=''>About</a>
-                    <a href="#Project" className=''>Projects</a>
+                    <a href="#Projects" className=''>Projects</a>
                     <a href="#Testimonials" className=''>Testimonials</a>
                 </ul>
                 <button className='hidden md:block bg-[#410D07] text-white px-6 py-2 border border-yellow-700 rounded font-small shadow-md cursor-pointer active:scale-99'>Sign Up</button>

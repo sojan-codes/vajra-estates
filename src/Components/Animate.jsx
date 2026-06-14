@@ -44,7 +44,7 @@ const IntroAnimate = ({ onFinish }) => {
         if (subIndex < word.length) {
             const interval = setInterval(() => {
                 setSubIndex(n => n + 1)
-            }, 120)
+            }, 80)
             return () => clearInterval(interval)
         }
         const timeout = setTimeout(() => {

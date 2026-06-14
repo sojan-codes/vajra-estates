@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { use, useEffect, useState } from 'react'
 import Header from './Sections/Header'
 import About from './Sections/About'
 import Project from './Sections/Project'
@@ -8,16 +8,19 @@ import Footer from './Sections/Footer'
 import { ToastContainer } from 'react-toastify';
 import Animate from './Components/Animate'
 import { div } from 'framer-motion/client'
+import { AnimatePresence, time } from 'framer-motion'
 
 const App = () => {
-  const [step, setStep] = useState(false);
+  const [showIntro, setShowIntro] = useState(false);
   return (
     <div>
-      {!step && <Animate onFinish={() => setStep(true)} />}
-      {step && (
+      <AnimatePresence>
+        {!showIntro && <Animate onFinish={() => setShowIntro(true)} />}
+      </AnimatePresence>
+      <Header />
+      {showIntro && (
         <div>
           <ToastContainer />
-          <Header />
           <About />
           <Project />
           <Testimonials />

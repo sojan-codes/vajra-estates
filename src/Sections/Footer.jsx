@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="text-[#EDD9B8] lg:w-1/3">
                     <h1 className='font-semibold lg:text-xl'>Company</h1>
                     <ul className='flex flex-col lg:gap-2 lg:mt-2'>
-                        <span><a href="#Header" className='font-light'>Home</a></span>
+                        <span><a href="#Home" className='font-light'>Home</a></span>
                         <span><a href="#About" className='font-light'>About</a></span>
                         <span><a href="#Contact" className='font-light'>Contact</a></span>
                     </ul>

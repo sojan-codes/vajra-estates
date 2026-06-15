@@ -1,23 +1,23 @@
-import logo from './logo.png'
-import logo_img from './logo_img.png'
+import logo from './logo.webp'
+import logo_img from './logo_img.webp'
 import cross_icon from './cross_icon.svg'
 import menu_icon from './menu_icon.svg'
 import star_icon from './star_icon.svg'
 import left_arrow from './left_arrow.svg'
 import right_arrow from './right_arrow.svg'
-import header_img from './header_img.png'
-import brand_img from './brand_img.png'
-import project_img_1 from './project_img_1.png'
-import project_img_2 from './project_img_2.png'
-import project_img_3 from './project_img_3.png'
-import project_img_4 from './project_img_4.png'
-import project_img_5 from './project_img_5.png'
-import project_img_6 from './project_img_6.png'
-import profile_img_1 from './profile_img_1.png'
-import profile_img_2 from './profile_img_2.png'
-import profile_img_3 from './profile_img_3.png'
-import page_bg_img from './page_bg_img.png'
-import red_bg from './red_bg.png'
+import header_img from './header_img.webp'
+import brand_img from './brand_img.webp'
+import project_img_1 from './project_img_1.webp'
+import project_img_2 from './project_img_2.webp'
+import project_img_3 from './project_img_3.webp'
+import project_img_4 from './project_img_4.webp'
+import project_img_5 from './project_img_5.webp'
+import project_img_6 from './project_img_6.webp'
+import profile_img_1 from './profile_img_1.webp'
+import profile_img_2 from './profile_img_2.webp'
+import profile_img_3 from './profile_img_3.webp'
+import page_bg_img from './page_bg_img.webp' //page bg
+import red_bg from './red_bg.webp'
 
 export const assets = {
     logo,
@@ -78,7 +78,7 @@ export const projectsData = [
 
 export const testimonialsData = [
   {
-    name: "Rajendra Shakya",
+    name: "Rajendra Bajracharya",
     title: "Business Owner",
     image: profile_img_1,
     alt: "Portrait of Rajendra Shakya",
@@ -86,7 +86,7 @@ export const testimonialsData = [
     text: "The team beautifully blended traditional Newari architecture with modern living. The craftsmanship and attention to detail exceeded all my expectations."
   },
   {
-    name: "Sonika Buddhachari",
+    name: "Sonika Shakya",
     title: "Entrepreneur",
     image: profile_img_2,
     alt: "Portrait of Sujata Maharjan",

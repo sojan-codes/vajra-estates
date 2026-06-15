@@ -9,9 +9,14 @@ import { ToastContainer } from 'react-toastify';
 import Animate from './Components/Animate'
 import { div } from 'framer-motion/client'
 import { AnimatePresence, time } from 'framer-motion'
+import { assets } from './assets/assets'
 
 const App = () => {
   const [showIntro, setShowIntro] = useState(false);
+  useEffect(() => {
+    const img = new Image();
+    img.src = assets.red_bg;
+  }, []);
   return (
     <div className='overflow-hidden'>
       <AnimatePresence>

@@ -82,10 +82,10 @@ const Project = () => {
                     viewport={{ once: true }}
                 >
                     <button onClick={prevImage} className='py-3 px-2 bg-[#550D09] rounded cursor-pointer active:scale-98'>
-                        <img src={assets.left_arrow} className="h-5 w-auto invert" />
+                        <img src={assets.left_arrow} className="h-5 w-auto invert" loading="lazy"/>
                     </button>
                     <button onClick={nextImage} className='py-3 px-2 bg-[#550D09] rounded cursor-pointer active:scale-98'>
-                        <img src={assets.right_arrow} className="h-5 w-auto invert" />
+                        <img src={assets.right_arrow} className="h-5 w-auto invert" loading="lazy"/>
                     </button>
                 </motion.div>
                 <motion.div className="flex md:gap-8 h-[63%] w-full overflow-hidden md:h-[65%]"

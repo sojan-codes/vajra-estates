@@ -22,7 +22,7 @@ const Navbar = () => {
                 exit={{duration: 0.01}}
                 viewport={{ once: true }}
                 >
-                <img src={assets.logo_img} className="h-18 md:h-20 w-auto" />
+                <img src={assets.logo_img} className="h-18 md:h-20 w-auto" loading="lazy"/>
                 <ul className='hidden md:flex gap-6 text-xl font-sm text-[#F8F4E9]'>
                     <a href="#Home" className=''>Home</a>
                     <a href="#About" className=''>About</a>
@@ -32,7 +32,7 @@ const Navbar = () => {
                 <button className='hidden md:block bg-[#410D07] text-white px-6 py-2 border border-yellow-700 rounded font-small shadow-md cursor-pointer active:scale-99'>Sign Up</button>
                 <img src={assets.menu_icon} className="md:hidden h-6 w-auto" onClick={() => {
                     setShowMenu(true)
-                }} />
+                }} loading="lazy"/>
                 <div className={`bg-[#F0E5D6] fixed right-0 top-0 bottom-0 transition-transform duration-300 z-111 ${showMenu ? 'translate-x-0' : 'translate-x-full'}`}>
                     <div className="p-9 flex justify-end">
                         <img src={assets.cross_icon} className="h-6" onClick={() => {

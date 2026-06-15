@@ -6,7 +6,7 @@ const Footer = () => {
         <div className='bg-cover bg-center flex flex-col gap-3' style={{ backgroundImage: `url(${assets.red_bg})` }}>
             <div className='px-5 py-3 flex flex-col gap-3 lg:flex-row md:px-15 md:py-5'>
                 <div className="text-[#EDD9B8] flex flex-col gap-2 lg:w-1/2">
-                    <img src={assets.logo_img} className="h-18 self-start" />
+                    <img src={assets.logo_img} className="h-18 self-start" loading="lazy"/>
                     <p className='font-light'>Building more than homes — creating places where life unfolds, memories are made, and futures begin.</p>
                 </div>
                 <div className="text-[#EDD9B8] lg:w-1/3">

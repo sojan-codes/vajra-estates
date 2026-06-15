@@ -25,7 +25,7 @@ const About = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.8, delay: 0.2 }}
                     >
-                        <img src={assets.brand_img} className="md:h-auto w-full" />
+                        <img src={assets.brand_img} className="md:h-auto w-full" loading="lazy"/>
                     </motion.div>
                     <motion.div className="flex flex-col gap-6 md:w-1/2 md:py-15"
                         initial={{ opacity: 0, x: 100 }}

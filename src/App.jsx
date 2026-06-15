@@ -13,7 +13,7 @@ import { AnimatePresence, time } from 'framer-motion'
 const App = () => {
   const [showIntro, setShowIntro] = useState(false);
   return (
-    <div>
+    <div className='overflow-hidden'>
       <AnimatePresence>
         {!showIntro && <Animate onFinish={() => setShowIntro(true)} />}
       </AnimatePresence>

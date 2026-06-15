@@ -98,7 +98,7 @@ const Project = () => {
                         projectsData.map((project, idx) => {
                             return <div key={idx} className="shrink-0 h-full w-full relative md:w-1/3 lg:w-1/4 transition-transform duration-400" style={{ transform: `translateX(-${(imageIndex * 100) / imageShow}%)` }}>
                                 <div>
-                                    <img src={project.image} className="h-full w-auto object-center" />
+                                    <img src={project.image} className="h-full w-auto object-center" loading="lazy"/>
                                 </div>
                                 <div className="absolute bottom-0 text-center left-1/2 -translate-x-1/2 shodow-md w-4/5 rounded bg-cover bg-center" style={{ backgroundImage: `url(${assets.red_bg})` }}>
                                     <div className="bg-black/25 h-full w-full  py-3 px-1 text-[#EDD9B8] items-center shadow-md">

@@ -38,7 +38,7 @@ const Testimonials = () => {
                     {
                         testimonialsData.map((testimonial, idx) => {
                             return <div key={idx} className="flex flex-col items-center border p-8 rounded-2xl shadow-lg text-center gap-2 bg-[#F0E5D6] w-full">
-                                <img src={testimonial.image} className="h-30 object-cover" loading="lazy" />
+                                <img src={testimonial.image} className="h-30 object-cover"/>
                                 <div>
                                     <h1 className='font-semibold'>{testimonial.name}</h1>
                                     <h1 className='font-semibold text-[#6F130F]'>{testimonial.title}</h1>

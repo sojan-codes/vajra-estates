@@ -25,9 +25,7 @@ const App = () => {
   if (!ready) {
     return (
       <div className="h-screen w-screen bg-[#550706] flex items-center justify-center text-white">
-        <div className="fixed inset-0 bg-black/50 flex justify-center items-center">
-
-        </div>
+        <div className="fixed inset-0 bg-black/50 flex justify-center items-center" />
       </div>
     );
   }

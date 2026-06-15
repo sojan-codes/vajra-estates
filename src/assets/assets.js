@@ -1,4 +1,4 @@
-import logo from './logo.webp'
+// import logo from './logo.webp'
 import logo_img from './logo_img.webp'
 import cross_icon from './cross_icon.svg'
 import menu_icon from './menu_icon.svg'
@@ -20,7 +20,7 @@ import page_bg_img from './page_bg_img.webp' //page bg
 import red_bg from './red_bg.webp'
 
 export const assets = {
-    logo,
+    // logo,
     logo_img,
     cross_icon,
     menu_icon,

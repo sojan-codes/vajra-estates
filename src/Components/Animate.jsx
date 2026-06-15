@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'motion/react'
 
 const IntroAnimate = ({ onFinish }) => {
     const word = ", ज्वजलपा";
-    const type = ['','|'];
+    const type = ['', '|'];
     const greet = [
         "Hello",
         "Hola",

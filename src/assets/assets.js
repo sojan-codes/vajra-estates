@@ -77,28 +77,28 @@ export const projectsData = [
 ];
 
 export const testimonialsData = [
-  {
-    name: "Rajendra Bajracharya",
-    title: "Business Owner",
-    image: profile_img_1,
-    alt: "Portrait of Rajendra Shakya",
-    rating: 5,
-    text: "The team beautifully blended traditional Newari architecture with modern living. The craftsmanship and attention to detail exceeded all my expectations."
-  },
-  {
-    name: "Sonika Shakya",
-    title: "Entrepreneur",
-    image: profile_img_2,
-    alt: "Portrait of Sujata Maharjan",
-    rating: 5,
-    text: "I was looking for a home that reflected our cultural heritage while offering modern comfort. The result was exactly what my family had envisioned."
-  },
-  {
-    name: "Prakash Tuladhar",
-    title: "Architect",
-    image: profile_img_3,
-    alt: "Portrait of Prakash Tuladhar",
-    rating: 4,
-    text: "From planning to completion, the entire process was professional and transparent. The Newari-inspired design has become a source of pride for our family."
-  }
+    {
+        name: "Rajendra Bajracharya",
+        title: "Business Owner",
+        image: profile_img_1,
+        alt: "Portrait of Rajendra Shakya",
+        rating: 5,
+        text: "The team beautifully blended traditional Newari architecture with modern living. The craftsmanship and attention to detail exceeded all my expectations."
+    },
+    {
+        name: "Sonika Shakya",
+        title: "Entrepreneur",
+        image: profile_img_2,
+        alt: "Portrait of Sujata Maharjan",
+        rating: 5,
+        text: "I was looking for a home that reflected our cultural heritage while offering modern comfort. The result was exactly what my family had envisioned."
+    },
+    {
+        name: "Prakash Tuladhar",
+        title: "Architect",
+        image: profile_img_3,
+        alt: "Portrait of Prakash Tuladhar",
+        rating: 4,
+        text: "From planning to completion, the entire process was professional and transparent. The Newari-inspired design has become a source of pride for our family."
+    }
 ];
